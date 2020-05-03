@@ -11,11 +11,11 @@ We used the FreeSurfer (v6.0.0) and MNE (v0.14.0) open-source software for proce
 
 ### Installing
 
-You need to install the required toolboxes/software, i.e., MATLAB, CVX toolbox, EEGLAB toolbox, and FieldTrip MATLAB toolbox.   
+You need to install the required toolboxes/software, i.e., MATLAB, CVX toolbox, EEGLAB toolbox, and FieldTrip MATLAB toolbox. The anonymized raw EEG dataset and MRI scans of the participants in this research are made available online on KiltHub, Carnegie Mellon University’s online data repository (DOI: XXXXXX).   
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
+To test the performance of the SilenceMap algorithm, we have included a main code here, i.e., "SilenceMap.m", which simulates different regions of silence at random locations in the brain model, and applies the SilenceMap algorithm to localize the simulated region. To make it easy for you to run this example, we have included the required headmodel and the corresponding leadfield matrix, extracted from the MRI scans of participant OT in [1].  
 
 
 ### And coding style tests
@@ -29,20 +29,14 @@ Give an example
 
 ## Built With
 
-* [MATLAB](https://www.mathworks.com/products/matlab.html) - The standard toolboxes are required
-* [CVX](http://cvxr.com/cvx/) - Matlab Software for Disciplined Convex Programming
+* [MATLAB](https://www.mathworks.com/products/matlab.html) - The standard toolboxes are required.
+* [CVX](http://cvxr.com/cvx/) - Matlab Software for Disciplined Convex Programming.
 * [FieldTrip](http://www.fieldtriptoolbox.org) - FieldTrip is the MATLAB software toolbox for MEG, EEG, iEEG and NIRS analysis.
-* [EEGLAB](https://sccn.ucsd.edu/eeglab/index.php) - Used to generate RSS Feeds
-* [FreeSurfer](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-* [MNE](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [EEGLAB](https://sccn.ucsd.edu/eeglab/index.php) - EEGLAB is an interactive Matlab toolbox used here for preprocessing EEG signals.
+* [FreeSurfer](https://surfer.nmr.mgh.harvard.edu) - An open source software suite for processing and analyzing (human) brain MRI images.
+* [MNE](https://mne.tools/stable/index.html) - Open-source Python software used here for processing the MRI scans and extraction of different layers of the brain.
 
 
-
-
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## Versioning
 
