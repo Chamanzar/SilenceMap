@@ -15,15 +15,17 @@ You need to install the required toolboxes/software, i.e., MATLAB, CVX toolbox, 
 
 ## Running the tests
 
-To test the performance of the SilenceMap algorithm, we have included a main code here, i.e., "SilenceMap.m", which simulates different regions of silence at random locations in the brain model, and applies the SilenceMap algorithm to localize the simulated region. To make it easy for you to run this example, we have included the required headmodel and the corresponding leadfield matrix, extracted from the MRI scans of participant OT in [1].  
+To test the performance of the SilenceMap algorithm, we have included example codes in this project which simulate different regions of silence at random locations in the brain model, and apply the SilenceMap algorithm to localize the simulated region. To make it easy for you to run this example, we have preprocessed the MRI scans and included the extracted headmodels and the corresponding leadfield matrices.  
 
 
 ### And coding style tests
 
-Explain what these tests test and why
+Two example files are included in this project, which show how to use and test the SilenceMap method: 1) "SilenceMap_with_baseline.m" which tests the SilenceMap method with hemispheric baseline, and 2) "SilenceMap_wo_baseline.m" which tests the SilenceMap method without hemispheric baseline. Each of these two codes generates, tests, and saves a randomly simulated regions of silence. All you need to do is to put the required files in a folder, i.e., "SilenceMap.m", "", and "", and simply run the following lines in MATLAB: 
 
 ```
-Give an example
+cd /path-to-the-folder/
+run SilenceMap_with_baseline.m
+run SilenceMap_wo_baseline.m
 ```
 
 
