@@ -29,9 +29,16 @@ Give an example
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [MATLAB](https://www.mathworks.com/products/matlab.html) - The standard toolboxes are required
+* [CVX](http://cvxr.com/cvx/) - Matlab Software for Disciplined Convex Programming
+* [FieldTrip](http://www.fieldtriptoolbox.org) - FieldTrip is the MATLAB software toolbox for MEG, EEG, iEEG and NIRS analysis.
+* [EEGLAB](https://sccn.ucsd.edu/eeglab/index.php) - Used to generate RSS Feeds
+* [FreeSurfer](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [MNE](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+
+
+
+
 
 ## Contributing
 
