@@ -7,11 +7,11 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-We used the FreeSurfer (v6.0.0) and MNE (v0.14.0) open-source software for processing the MRI scans in this study. We preprocessed the recorded EEG signals using EEGLAB toolbox (v2019.0) in MATLAB. The SilenceMap algorithm was developed in MATLAB (R2018b), using standard toolboxes, and the CVX MATLAB package (v2.1). 
+We used the FreeSurfer (v6.0.0) and MNE (v0.14.0) open-source software for processing the MRI scans in this study. We preprocessed the recorded EEG signals using EEGLAB toolbox (v2019.0) in MATLAB. We calculated the lead-field/forward matrix using the FieldTrip MATLAB toolbox (fieldtrip-20170828). The SilenceMap algorithm was developed in MATLAB (R2018b), using standard toolboxes, and the CVX MATLAB package (v2.1). 
 
 ### Installing
 
-All you need to run the SilenceMap.m is to make 
+You need to install the required toolboxes/software, i.e., MATLAB, CVX toolbox, EEGLAB toolbox, and FieldTrip MATLAB toolbox.   
 
 ## Running the tests
 
