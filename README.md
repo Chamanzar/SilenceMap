@@ -20,7 +20,7 @@ To test the performance of the SilenceMap algorithm, we have included example co
 
 ### And coding style tests
 
-Two example files are included in this project, which show how to use and test the SilenceMap method: 1) "SilenceMap_with_baseline.m" which tests the SilenceMap method with hemispheric baseline, and 2) "SilenceMap_wo_baseline.m" which tests the SilenceMap method without hemispheric baseline. Each of these two codes generates, tests, and saves a randomly simulated regions of silence. All you need to do is to put the required files in a folder, i.e., "SilenceMap.m", "", and "", and simply run the following lines in MATLAB: 
+Two example files are included in this project, which show how to use and test the SilenceMap method: 1) "SilenceMap_with_baseline.m" which tests the SilenceMap method with hemispheric baseline, and 2) "SilenceMap_wo_baseline.m" which tests the SilenceMap method without hemispheric baseline. Each of these two codes generates, tests, and saves randomly simulated regions of silence. All you need to do is to put the required files in a folder, i.e., "SilenceMap.m", "", and "", and simply run the following lines in MATLAB: 
 
 ```
 cd /path-to-the-folder/
