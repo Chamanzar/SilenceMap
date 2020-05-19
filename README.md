@@ -1,5 +1,5 @@
 # SilenceMap
-SilenceMap is a novel method for detection of neural “silences” using noninvasive scalp electroencephalography (EEG) signals. Regions of “silences” are defined as parts of the brain tissue with little or no neural activity, e.g., ischemic, necrotic, or lesional tissue in stroke, traumatic brain injuries (TBIs), intracranial hematoma, or even tumors in the brain. SilenceMap uses a novel hemispheric baseline approach, and with the aid of a convex spectral clustering (CSpeC) framework, provides fast detection and localization of the regions of silence in the brain based on a relatively small amount of scalp EEG data. SilenceMap was introduced in our recent paper [1].
+SilenceMap is a novel algorithm for detection of neural “silences” using noninvasive scalp electroencephalography (EEG) signals. Regions of “silences” are defined as parts of the brain tissue with little or no neural activity, e.g., ischemic, necrotic, or lesional tissue in stroke, traumatic brain injuries (TBIs), intracranial hematoma, or even tumors in the brain. SilenceMap uses a novel hemispheric baseline approach, and with the aid of a convex spectral clustering (CSpeC) framework, provides fast detection and localization of the regions of silence in the brain based on a relatively small amount of scalp EEG data. SilenceMap was introduced in our recent paper [1].
 
 ## Getting Started
 
@@ -20,7 +20,13 @@ To test the performance of the SilenceMap algorithm, we have included example co
 
 ### And coding style tests
 
-Two example files are included in this project, which show how to use and test the SilenceMap method: 1) "SilenceMap_with_baseline.m" which tests the SilenceMap method with hemispheric baseline, and 2) "SilenceMap_wo_baseline.m" which tests the SilenceMap method without hemispheric baseline. Each of these two codes generates, tests, and saves randomly simulated regions of silence. All you need to do is to put the required files in a folder, i.e., "SilenceMap.m", "", and "", and simply run the following lines in MATLAB: 
+## EEG preprocessing
+
+## MRI preprocessing and leadfield extraction 
+
+## SilenceMap
+
+Two example files are included in this project, which show how to use and test the SilenceMap algorithm: 1) "SilenceMap_with_baseline.m" which tests the SilenceMap algorithm with hemispheric baseline, and 2) "SilenceMap_without_baseline.m" which tests the SilenceMap algorithm without hemispheric baseline. Each of these two codes generates, tests, and saves differetn simulated regions of silence, at random locations on in the brain model. All you need to do is to put the required files in a folder, i.e., "SilenceMap.m", "", and "", and simply run the following lines in MATLAB: 
 
 ```
 cd /path-to-the-folder/
