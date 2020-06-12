@@ -19,6 +19,7 @@ To test the performance of the SilenceMap algorithm, we have included example co
 
 ### EEG preprocessing
 
+/SilenceMap/EEG_prep/EEG_epoched_pruning.m 
 
 
 
