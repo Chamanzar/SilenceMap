@@ -1,5 +1,5 @@
 # SilenceMap
-SilenceMap is a novel algorithm for detection of neural “silences” using noninvasive scalp electroencephalography (EEG) signals. Regions of “silences” are defined as parts of the brain tissue with little or no neural activity, e.g., ischemic, necrotic, or lesional tissue in stroke, traumatic brain injuries (TBIs), intracranial hematoma, or even tumors in the brain. SilenceMap uses a novel hemispheric baseline approach, and with the aid of a convex spectral clustering (CSpeC) framework, provides fast detection and localization of the regions of silence in the brain based on a relatively small amount of scalp EEG data. SilenceMap was introduced in our recent paper [1].
+SilenceMap is a novel algorithm for detection of neural “silences” using noninvasive scalp electroencephalography (EEG) signals. Regions of “silences” are defined as parts of the brain tissue with little or no neural activity, e.g., ischemic, necrotic, or lesional tissue in stroke, traumatic brain injuries (TBIs), intracranial hematoma, or even tumors in the brain. SilenceMap uses a novel hemispheric baseline approach, and with the aid of a convex spectral clustering (CSpeC) framework, provides fast detection and localization of the regions of silence in the brain based on a relatively small amount of scalp EEG data. SilenceMap was introduced in our recent paper[1].
 
 ## Getting Started
 
@@ -11,7 +11,7 @@ We used the FreeSurfer (v6.0.0) and MNE (v0.14.0) open-source software for proce
 
 ### Installing
 
-You need to install the required toolboxes/software, i.e., MATLAB, CVX toolbox, EEGLAB toolbox, and FieldTrip MATLAB toolbox. The anonymized raw EEG dataset and MRI scans of the participants in this research are made available online on KiltHub, Carnegie Mellon University’s online data repository (DOI: XXXXXX).   
+You need to install the required toolboxes/software, i.e., MATLAB, CVX toolbox, EEGLAB toolbox, and FieldTrip MATLAB toolbox. The anonymized raw EEG dataset and MRI scans of the participants in this research are made available online on KiltHub, Carnegie Mellon University’s online data repository (DOI: 10.1184/R1/12402416) [2].  
 
 ## Running the tests
 
@@ -19,11 +19,18 @@ To test the performance of the SilenceMap algorithm, we have included example co
 
 ### EEG preprocessing
 
+
+
+
 ### MRI preprocessing and leadfield extraction 
 
 ### SilenceMap
 
-Two example files are included in this project, which show how to use and test the SilenceMap algorithm: 1) "SilenceMap_with_baseline.m" which tests the SilenceMap algorithm with hemispheric baseline, and 2) "SilenceMap_without_baseline.m" which tests the SilenceMap algorithm without hemispheric baseline. Each of these two codes generates, tests, and saves differetn simulated regions of silence, at random locations on in the brain model. All you need to do is to put the required files in a folder, i.e., "SilenceMap.m", "", and "", and simply run the following lines in MATLAB: 
+Two example files are included in this project, which show how to use and test the SilenceMap algorithm: 1) "SilenceMap_with_baseline.m" which tests the SilenceMap algorithm with hemispheric baseline, and 2) "SilenceMap_without_baseline.m" which tests the SilenceMap algorithm without hemispheric baseline. Each of these two codes generates, tests, and saves different simulated regions of silence, at random locations on in the brain model. 
+
+
+
+All you need to do is to put the required files in a folder, i.e., "SilenceMap.m", "", and "", and simply run the following lines in MATLAB: 
 
 ```
 cd /path-to-the-folder/
@@ -62,4 +69,9 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 * Hat tip to anyone whose code was used
 * Inspiration
 * etc
+
+## Refrences
+
+[1] A. Chamanzar, M. Behrmann, and P. Grover, "Neural silences can be localized rapidly using noninvasive scalp EEG", to be published, 2020. 
+[2] A. Chamanzar, M. Behrmann, and P. Grover, "Pediatric patients with lobectomy (MRI and EEG)", Carnegie Mellon University. Dataset. https://doi.org/10.1184/R1/12402416
 
