@@ -20,7 +20,7 @@ clc
 % eeg = LS+E: forward model
 
 % Author: Alireza 	Date: 2020/05/03 17:00:48 	Revision: 0.1 
-% Copyright: This project is licensed under the MIT License - see the LICENSE.md file for details
+% Copyright: This project is licensed - see the LICENSE.md file for details
 
 %% Simulations of regions of silence on a real headmodel:
 cd ..
