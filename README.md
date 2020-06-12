@@ -18,7 +18,7 @@ You need to install the required toolboxes/software, i.e., MATLAB, CVX toolbox, 
 To test the performance of the SilenceMap algorithm, we have included example codes in this project which simulate different regions of silence at random locations in the brain model, and apply the SilenceMap algorithm to localize the simulated region. To make it easy for you to run this example, we have preprocessed the MRI scans and included the extracted headmodels and the corresponding leadfield matrices.  
 
 ### EEG preprocessing
-In [EEG_prep](EEG_prep) folder, there is a matlab code named [EEG_epoched_pruning.m](EEG_prep/EEG_epoched_pruning.m), which includes all of the preprocessing steps we have used for the recorded EEG dataset. This code requires [EEGLAB](https://sccn.ucsd.edu/eeglab/index.php) toolbox. You can download any of the EEG files from our opensource dataset [here](10.1184/R1/12402416), and put it inside the [EEG_prep](EEG_prep) folder, and run [EEG_epoched_pruning.m](EEG_prep/EEG_epoched_pruning.m), with proper modifications, to preprocess the EEG data.    
+In [EEG_prep](EEG_prep) folder, there is a matlab code named [EEG_epoched_pruning.m](EEG_prep/EEG_epoched_pruning.m), which includes all of the preprocessing steps we have used for the recorded EEG dataset. This code requires [EEGLAB](https://sccn.ucsd.edu/eeglab/index.php) toolbox. You can download any of the EEG files from our opensource dataset [here](https://doi.org/10.1184/R1/12402416), and put it inside the [EEG_prep](EEG_prep) folder, and run [EEG_epoched_pruning.m](EEG_prep/EEG_epoched_pruning.m), with proper modifications, to preprocess the EEG data.    
 
 ### MRI preprocessing and leadfield extraction 
 
