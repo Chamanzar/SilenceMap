@@ -1,0 +1,17 @@
+-FreeSurfer
+
+cd Path-To-MRI-File
+
+mri_convert NAME.img NAME.nii.gz
+
+recon-all -i NAME.nii.gz -s NAME -all;
+
+
+-python
+
+-import mne
+
+-mne.bem.make_watershed_bem('NAME’, subjects_dir='/Applications/freesurfer/subjects’, overwrite=False, volume='T1', atlas=False, gcaatlas=False, preflood=None, show=False, verbose=None)
+
+NOTE: make sure about the ‘ character in the address above.
+
