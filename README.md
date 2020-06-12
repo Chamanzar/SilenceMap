@@ -22,7 +22,7 @@ In [EEG_prep](EEG_prep) folder, there is a matlab code named [EEG_epoched_prunin
 
 ### MRI preprocessing and leadfield extraction 
 
-To Prerprocess the MRI scans using FreeSurfer and MNE,  
+To Prerprocess the MRI scans using FreeSurfer and MNE, please go to [MRI_prep_leadfield_ext](MRI_prep_leadfield_ext) folder and follow the instructions in [MRI_workflow.txt](MRI_workflow). To extract the leadfiled matrix (forward model), please follow the instructions in [Leadfield_workflow.txt](Leadfield_workflow.txt). As an example, we have included the extracted headmodels and their corresponding leadfield matrices for the participant OT (see [here](https://doi.org/10.1184/R1/12402416) for more information), for a low and a high resolution source grid. In addtion, the raw structural MRI scan of OT is included in [OT_defaced](OT_defaced), so that you can simply run the MRI preprocessing and leadfield extraction codes for OT. Other MRI scans can be downloaded from [here](https://doi.org/10.1184/R1/12402416).      
 
 ### SilenceMap
 
