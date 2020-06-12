@@ -73,5 +73,6 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 ## Refrences
 
 [1] A. Chamanzar, M. Behrmann, and P. Grover, "Neural silences can be localized rapidly using noninvasive scalp EEG", to be published, 2020. 
+
 [2] A. Chamanzar, M. Behrmann, and P. Grover, "Pediatric patients with lobectomy (MRI and EEG)", Carnegie Mellon University. Dataset. https://doi.org/10.1184/R1/12402416
 
