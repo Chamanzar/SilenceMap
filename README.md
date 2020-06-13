@@ -46,19 +46,31 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+First/Corresponding Author Contact Information
+    Name: Alireza Chamanzar
+    Institution: Carnegie Mellon University
+    Address: Hamerschlag Hall B200, 5000 Forbes Ave., Pittsburgh PA 15213 United States
+    Email: achamanz@andrew.cmu.edu
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+Second/Corresponding Author Contact Information
+    Name: Marlene Behrmann 
+    Institution: Carnegie Mellon University
+    Address: 331 Baker Hall, 5000 Forbes Ave., Pittsburgh PA 15213 United States
+    Email: behrmann@cmu.edu
+
+Third/Corresponding Author Contact Information
+    Name: Pulkit Grover
+    Institution: Carnegie Mellon University
+    Address: Hamerschlag Hall B202, 5000 Forbes Ave., Pittsburgh PA 15213 United States
+    Email: pgrover@andrew.cmu.edu
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed - see the [LICENSE.md](LICENSE.md) file for details
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+This work was supported in part by the Chuck Noll Foundation for Brain Injury Research, and a CMU BrainHub award. The authors of this manuscript thank Chaitanya Goswami, Praveen Venkatesh, Ashwati Krishnan, Anne Margarette S. Maallo, Sarah M. Haigh, and Maysamreza Chamanzar for helpful discussions, and Ashwati Krishnan and Patricia Brosseau for help in data collection.
 
 ## Refrences
 
