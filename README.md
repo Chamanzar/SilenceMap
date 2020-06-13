@@ -26,16 +26,7 @@ To Prerprocess the MRI scans using FreeSurfer and MNE, please go to [MRI_prep_le
 
 ### SilenceMap
 
-Two example files are included in [SilenceMap](SilenceMap), which show how to use and test the SilenceMap algorithm: 1) "[SilenceMap_with_baseline.m](SilenceMap_with_baseline.m)" which tests the SilenceMap algorithm with hemispheric baseline, and 2) "[SilenceMap_without_baseline.m](SilenceMap_without_baseline.m)" which tests the SilenceMap algorithm without hemispheric baseline. Each of these two codes generates, tests, and saves different simulated regions of silence, at random locations in the brain model. In addtion, we have implemented the state-of-the-art source localization algorithms, i.e., sLORETA, MNE, and MUSIC, with proper modifications for the silence localization task. These implementations are available in    
-
-
-All you need to do is to put the required files in a folder, i.e., "SilenceMap.m", "", and "", and simply run the following lines in MATLAB: 
-
-```
-cd /path-to-the-folder/
-run SilenceMap_with_baseline.m
-run SilenceMap_wo_baseline.m
-```
+Two example files are included in [SilenceMap](SilenceMap), which show how to use and test the SilenceMap algorithm: 1) "[SilenceMap_with_baseline.m](SilenceMap_with_baseline.m)" which tests the SilenceMap algorithm with hemispheric baseline, and 2) "[SilenceMap_without_baseline.m](SilenceMap_without_baseline.m)" which tests the SilenceMap algorithm without hemispheric baseline. Each of these two codes generates, tests, and saves different simulated regions of silence, at random locations in the brain model. In addtion, we have implemented the state-of-the-art source localization algorithms, i.e., sLORETA, MNE, and MUSIC, with proper modifications for the silence localization task (see [1] for more information). These implementations are available as a matlab function in [modified_src_loc.m](modified_src_loc.m), and an example of how to use this function is available in [sLoreta_MNE_MUSIC_simulation_vF.m](sLoreta_MNE_MUSIC_simulation_vF.m). [hemispheric_base.m](hemispheric_base.m) in [SilenceMap](SilenceMap) calculates the source contribution measure with hemispheric baseline, [CSpeC.m](CSpeC.m) includes the implementation of the convex spectral clustering (CSpeC) framework used in the SilenceMap algorithm, and [plot_source_space_signal_vF.m](plot_source_space_signal_vF.m) is a function to plot the localized regions of silence in the brain model.   
 
 
 ## Built With
