@@ -49,21 +49,19 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 First/Corresponding Author Contact Information  
 
     Name: Alireza Chamanzar  
-    
     Institution: Carnegie Mellon University  
-    
     Address: Hamerschlag Hall B200, 5000 Forbes Ave., Pittsburgh PA 15213 United States  
-    
     Email: achamanz@andrew.cmu.edu  
     
+Second Author Contact Information  
 
-Second/Corresponding Author Contact Information
     Name: Marlene Behrmann 
     Institution: Carnegie Mellon University
     Address: 331 Baker Hall, 5000 Forbes Ave., Pittsburgh PA 15213 United States
     Email: behrmann@cmu.edu
 
-Third/Corresponding Author Contact Information
+Third/Corresponding Author Contact Information  
+
     Name: Pulkit Grover
     Institution: Carnegie Mellon University
     Address: Hamerschlag Hall B202, 5000 Forbes Ave., Pittsburgh PA 15213 United States
