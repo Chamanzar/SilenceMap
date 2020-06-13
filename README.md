@@ -75,6 +75,12 @@ This project is licensed - see the [LICENSE.md](LICENSE.md) file for details
 
 This work was supported in part by the Chuck Noll Foundation for Brain Injury Research, and a CMU BrainHub award. The authors of this manuscript thank Chaitanya Goswami, Praveen Venkatesh, Ashwati Krishnan, Anne Margarette S. Maallo, Sarah M. Haigh, and Maysamreza Chamanzar for helpful discussions, and Ashwati Krishnan and Patricia Brosseau for help in data collection.
 
+## How to cite this work?
+
+You can cite our paper in [1], our open source dataset in [2], and our SilenceMap software as below:
+
+A. Chamanzar, M. Behrmann, and P. Grover, "SilenceMap: open source codes and software", GitHub. [![DOI](https://zenodo.org/badge/260843235.svg)](https://zenodo.org/badge/latestdoi/260843235)
+
 ## References
 
 [1] A. Chamanzar, M. Behrmann, and P. Grover, "Neural silences can be localized rapidly using noninvasive scalp EEG", to be published, 2020. 
