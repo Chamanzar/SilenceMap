@@ -51,21 +51,21 @@ First/Corresponding Author Contact Information
     Name: Alireza Chamanzar  
     Institution: Carnegie Mellon University  
     Address: Hamerschlag Hall B200, 5000 Forbes Ave., Pittsburgh PA 15213 United States  
-    Email: achamanz@andrew.cmu.edu  
+    Email: [achamanz@andrew.cmu.edu](achamanz@andrew.cmu.edu)  
     
 Second Author Contact Information  
 
     Name: Marlene Behrmann 
     Institution: Carnegie Mellon University
     Address: 331 Baker Hall, 5000 Forbes Ave., Pittsburgh PA 15213 United States
-    Email: behrmann@cmu.edu
+    Email: [behrmann@cmu.edu](behrmann@cmu.edu)
 
 Third/Corresponding Author Contact Information  
 
     Name: Pulkit Grover
     Institution: Carnegie Mellon University
     Address: Hamerschlag Hall B202, 5000 Forbes Ave., Pittsburgh PA 15213 United States
-    Email: pgrover@andrew.cmu.edu
+    Email: [pgrover@andrew.cmu.edu](pgrover@andrew.cmu.edu)
 
 ## License
 
