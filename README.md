@@ -83,7 +83,7 @@ A. Chamanzar, M. Behrmann, and P. Grover, "SilenceMap: open source code and soft
 
 ## References
 
-[1] A. Chamanzar, M. Behrmann, and P. Grover, "Neural silences can be localized rapidly using noninvasive scalp EEG", to be published, 2020. 
+[1] A. Chamanzar, M. Behrmann, and P. Grover, "Neural silences can be localized rapidly using noninvasive scalp EEG", bioRxiv 2020.10.11.334987; doi: https://doi.org/10.1101/2020.10.11.334987 
 
 [2] A. Chamanzar, M. Behrmann, and P. Grover, "Pediatric patients with lobectomy (MRI and EEG)", Carnegie Mellon University. Dataset. https://doi.org/10.1184/R1/12402416
 
